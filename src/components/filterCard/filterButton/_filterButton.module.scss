@@ -1,0 +1,17 @@
+$button-color : #ce0d6a;
+
+.button {
+    background-color: #fff;
+    min-width: 100px;
+    border: solid 1px #000;
+    border-radius: 20px;
+    padding: 8px 5px 8px 5px;
+    width: auto;
+    cursor: pointer;
+    margin: 5px;
+}
+.selected {
+    background-color: $button-color;
+    border: none;
+    color: #fff;
+}
